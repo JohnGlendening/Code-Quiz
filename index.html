@@ -37,7 +37,6 @@
     <div class="quizWrap">
 
         <div id="quizBox" class="hoverBox">
-            <!-- BOX ONE is the instructions box that is turned off when start quiz button is pushed -->
 
             <div id="boxOne">
                 <h3>Coding Quiz</h3>
@@ -45,11 +44,9 @@
                 <p>You will have 90 seconds on the clock to answer 5 questions.</p>
                 <p>However, guess wrong and 15 seconds will be deducted from the clock!</p>
                 <p>Good luck!!!</p>
-                <!-- A <button id="startButton" > to start the quiz -->
                 <button id="startQuiz">Start Quiz!</button>
             </div>
 
-            <!-- BOX TWO is then turned on and prints the questions to the screen one by one-->
             <div id="boxTwo" class="startHidden">
                 <h3 id="title"></h3>
                 <button id="chA" class="quizBtn"></button>
@@ -60,19 +57,16 @@
             </div>
 
             <div id="boxThree" class="startHidden">
-            
+
                 <a href="index.html" class="button px-2 py-1">Go Back</a>
-                <!-- <button href="index.html">Go Back</button> -->
             </div>
 
-            <!-- If all questions are answered in time BOX FOUR appears -->
             <div id="boxFour" class="startHidden">
                 <h3 id="endMsg"></h3>
                 <h4 id="yourScore"></h4>
                 <p>Enter your initials for the leaderboard:</p>
                 <form>
                     <input type="text" id="userName">
-                    <!--button to submit-->
                     <a href="highScores.html" id="submitNameScore" class="button px-2 py-1">Submit</a>
                 </form>
             </div>
