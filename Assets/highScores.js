@@ -36,5 +36,4 @@ function scoresSorted(array, key) {
 clearHighScore.addEventListener("click", function() {
     localStorage.removeItem("highscores");
     window.location.reload();
-});©
-2020 GitHub, Inc.
+});
